@@ -9,252 +9,150 @@ nav{
   align-items: center;
   justify-content: center;
   gap: 30px;
-
 }
-
-.po {
-  height: 100%;
- width: 90px;
-  border: 1px solid white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Color with opacity */
+.po{
+  box-shadow: 2px 1px 2px 1px;
+  width: 10%;
 }
-
 .head2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
-  gap: 30px;
-  text-align: center; /* Align text center */
+  margin-top: 40px;
+ color: gray;
+  text-align: center; 
 }
 
-.head2 i {
-  display: flex;
-  align-items: center; /* Center image vertically */
-  justify-content: center;
-  flex-direction: column;
-  position: relative; /* Needed for positioning the pseudo-element */
+.box{
+  margin-top: -42px;
+  padding-top: 15px;
+  border-bottom:4px solid gray;
+  border-radius: 2px;
+  width: 15%;
+  height: 10%;
+}
+ 
+.box:hover {
+  color: black;
+  background-color: gray; 
+  transform: scale(1); 
+  transition: 0.1s; 
+ 
+}
+.ga{
+  margin-top: -42px;
+  padding-top: 15px;
+  border-bottom:4px solid #c71616da;
+  border-radius: 2px;
+  width: 15%;
+  height: 10%;
+}
+ 
+.ga:hover {
+  background-color:#c71616da; 
+  transform: scale(1); 
+  transition: 0.1s; 
+}
+.bu{ margin-top: -44px;
+  padding-top: 2px;
+  border-bottom:4px solid #bd451a;
+  border-radius: 2px;
+  width: 15%;
+  height: 2%;
+  img{
+    position: relative;
+    top: 18px;
+  }
+  p{
+    font-size: 15px;
+    position: relative;
+    bottom: -10px;
+  }
+}
+ 
+.bu:hover {
+  background-color:#bd451a; 
+  transform: scale(1); 
+  transition: 0.1s; 
 }
 
 
-
-.head2 img {
-  display: block;
-  margin: auto; /* Center image horizontally */
+.tr{ margin-top: -42px;
+  padding-top: 2px;
+  border-bottom:4px solid #dfdf20;
+  border-radius: 2px;
+  width: 15%;
+  height: 2%;
+  img{
+    position: relative;
+    top: 18px;
+  }
+  p{
+    font-size: 15px;
+    position: relative;
+    bottom: -10px;
+  }
+}
+ 
+.tr:hover {
+  background-color:#dfdf20; 
+  transform: scale(1); 
+  transition: 0.1s; 
 }
 
-.head2 span {
-  font-weight: bold;
-  display: block;
-  padding: 10px;
-  position: relative; /* Needed for positioning the pseudo-element */
+.an{ margin-top: -42px;
+  padding-top: 18px;
+  border-bottom:4px solid #21a521;
+  border-radius: 2px;
+  width: 15%;
+ 
 }
-
-.head2 span::after {
-  content: "";
-  display: block;
-  width: 100%; /* Adjust the width of the line as needed */
-  height: 5px; /* Adjust the thickness of the line as needed */
-  background-color: #e6bc2f; /* Adjust the color of the line as needed */
-  position: absolute;
-  bottom: 0;
-  left: 0;
+ 
+.an:hover {
+  background-color:#21a521; 
+  transform: scale(1); 
+  transition: 0.1s; 
 }
-.i span::after {
-  content: "";
-  display: block;
-  width: 100%; /* Adjust the width of the line as needed */
-  height: 5px; /* Adjust the thickness of the line as needed */
-  background-color: yellow; /* Adjust the color of the line as needed */
-  position: absolute;
-  bottom: 0;
-  left: 0}
-  .i ::after{
-content: "";
-display: block;
-width: 50%; /* Adjust the width of the line as needed */
-height: 5px; /* Adjust the thickness of the line as needed */
-background-color: yellow; /* Adjust the color of the line as needed */
-position: absolute;
-bottom: 0;
-left: 25%;
+.pl{ margin-top: -42px;
+  padding-top: 2px;
+  border-bottom:4px solid aqua;
+  border-radius: 2px;
+  width: 15%;
+  height: 2%;
+  img{
+    position: relative;
+    top: 18px;
+  }
+  p{
+    font-size: 15px;
+    position: relative;
+    bottom: -10px;
+  }
 }
-.i:hover{
-  border: 1px solid yellow;
-  transform: scale(0.96);
-  transition: 0.1s;
-  background-color: yellow;
-}
-.i {
-  margin-top: -10px;
-}
-
-.i span {
-  margin-top: -20px;
-}
-.pl span::after {
-  content: "";
-  display: block;
-  width: 100%; /* Adjust the width of the line as needed */
-  height: 5px; /* Adjust the thickness of the line as needed */
-  background-color: rgba(0, 140, 255, 0.911); /* Adjust the color of the line as needed */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
- .pl ::after{
-content: "";
-display: block;
-width: 50%; /* Adjust the width of the line as needed */
-height: 5px; /* Adjust the thickness of the line as needed */
-background-color: blue; /* Adjust the color of the line as needed */
-position: absolute;
-bottom: 0;
-left: 25%;
-}
-.pl:hover{
-  border: 1px solid rgba(0, 140, 255, 0.911);
-    transform: scale(1);
-    transition: 0.1s;
-  background-color:rgba(0, 140, 255, 0.911);
-  height: 100px;
-}
-.ho {
-  margin-top: 20px;
-}
-.ga {
-  margin-top: 20px;
-}
-.ho span::after {
-  content: "";
-  display: block;
-  width: 100%; /* Adjust the width of the line as needed */
-  height: 5px; /* Adjust the thickness of the line as needed */
-  background-color: gray; /* Adjust the color of the line as needed */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
- .ho ::after{
-content: "";
-display: block;
-width: 50%; /* Adjust the width of the line as needed */
-height: 5px; /* Adjust the thickness of the line as needed */
-background-color:gray; /* Adjust the color of the line as needed */
-position: absolute;
-bottom: 0;
-left: 25%;
-}
-.ho:hover {
-  background-color: gray; /* Change background color on hover */
-  border: 1px solid gray; /* Add border on hover */
-  transform: scale(1); /* Scale back to original size on hover */
-  transition: 0.1s; /* Add transition for smooth hover effect */ /* Adjust height on hover */
-  object-fit: cover; /* Cover the space with background color */
-}
-.ga span::after {
-  content: "";
-  display: block;
-  width: 100%; /* Adjust the width of the line as needed */
-  height: 5px; /* Adjust the thickness of the line as needed */
-  background-color: red; /* Adjust the color of the line as needed */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
- .ga ::after{
-content: "";
-display: block;
-width: 50%; /* Adjust the width of the line as needed */
-height: 5px; /* Adjust the thickness of the line as needed */
-background-color: red; /* Adjust the color of the line as needed */
-position: absolute;
-bottom: 0;
-left: 25%;
-}
-.ga:hover{
-  background-color: red;
-}
-.bu span::after {
-  content: "";
-  display: block;
-  width: 100%; /* Adjust the width of the line as needed */
-  height: 5px; /* Adjust the thickness of the line as needed */
-  background-color: orangered; /* Adjust the color of the line as needed */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
- .bu ::after{
-content: "";
-display: block;
-width: 50%; /* Adjust the width of the line as needed */
-height: 5px; /* Adjust the thickness of the line as needed */
-background-color: orangered; /* Adjust the color of the line as needed */
-position: absolute;
-bottom: 0;
-left: 25%;
-}
-.bu:hover{
-  background-color: orangered;
-}
-.an span::after {
-  content: "";
-  display: block;
-  width: 100%; /* Adjust the width of the line as needed */
-  height: 5px; /* Adjust the thickness of the line as needed */
-  background-color: green; /* Adjust the color of the line as needed */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-.an{
-  margin-top: 20px;
-}
- .an ::after{
-content: "";
-display: block;
-width: 50%; /* Adjust the width of the line as needed */
-height: 5px; /* Adjust the thickness of the line as needed */
-background-color: green; /* Adjust the color of the line as needed */
-position: absolute;
-bottom: 0;
-left: 25%;
-}
-.an:hover{
-  height: auto;
-  width: auto;
-  background-color: green;
+ 
+.pl:hover {
+  background-color:aqua; 
+  transform: scale(1); 
+  transition: 0.1s; 
 }
 .ne{
-  margin-top: 20px;
+  margin-top: -40px;
+  padding-top: 15px;
+  border-bottom:4px solid #1212af;
+  border-radius: 2px;
+  width: 15%;
+  height: 10%;
 }
-.ne span::after {
-  content: "";
-  display: block;
-  width: 100%; /* Adjust the width of the line as needed */
-  height: 5px; /* Adjust the thickness of the line as needed */
-  background-color:blue; /* Adjust the color of the line as needed */
-  position: absolute;
-  bottom: 0;
-  left: 0;
+ 
+.ne:hover {
+  color: black;
+  background-color: #1212af; 
+  transform: scale(1); 
+  transition: 0.1s; 
 }
- .ne ::after{
-content: "";
-display: block;
-width: 50%; /* Adjust the width of the line as needed */
-height: 5px; /* Adjust the thickness of the line as needed */
-background-color:blue; /* Adjust the color of the line as needed */
-position: absolute;
-bottom: 0;
-left: 25%;
-}
-.ne:hover{
-  height: 100%;
-  width: 55px;
-  background-color: blue;
 
-}
+
+
 .mn {
   display: block;
   justify-content: center;
@@ -303,59 +201,10 @@ h1 span {
   grid-column: span 2;
   
 }
-.one .title{
-  background-color: burlywood;
-  position: relative;
-  top: -5px;
-  border-radius: 2px;
-}
-.two .title{
-  background-color: red;
-  position: relative;
-  top: -4px;
-}
-.three .title{
-  position: relative;
-  top: -4px;
-  border-radius: 2px;
-  background-color: orangered;
-}
-.six { 
-  display: flex;
-  flex-direction: row;
- 
- height: 72%;
- width: 50%;
- 
-}
-.title{
-  background-color: #e6bc2f;
-  margin-right: 10px;
- }
-
-.four{
-  position: relative;
-  top: -80px;
-}
-.five{
-  position: relative;
-  top: -80px;
-}
-.four .title{
-  background-color: blue;
-  position: relative;
-  top: -5px;
-  border-radius: 2px;
-}
-.five .title{
-  background-color: aqua;
-  position: relative;
-  top: -5px;
-}
 .table_parent > div {
 	position: relative;
 	overflow: hidden;
-	border-radius: 5px;
+	border-radius: 6px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -391,3 +240,204 @@ h1 span {
 	font-size: 0.9em;
 	white-space: nowrap;
 }
+
+.one .title{
+  background-color: burlywood;
+  position: relative;
+  top: -5px;
+  border-radius: 2px;
+}
+.two .title{
+  background-color: red;
+  position: relative;
+  top: -4px;
+}
+.three .title{
+  position: relative;
+  top: -4px;
+  border-radius: 2px;
+  background-color: orangered;
+}
+
+.four{
+  position: relative;
+  top: -80px;
+}
+.four .title{
+  background-color: blue;
+  position: relative;
+  top: -5px;
+  border-radius: 2px;
+}
+
+.five{
+  position: relative;
+  top: -80px;
+}
+
+.five .title{
+  background-color: aqua;
+  position: relative;
+  top: -5px;
+}
+
+.six .title{
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  position: relative;
+  top: -5px;}
+  .container {
+    display: flex;
+}
+
+.six {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    margin-right: 20px; /* Adjust spacing between items */
+}
+
+.six img {
+  margin-top: -90px;
+    width: 100px;
+    height: 75%;
+    width: 40%;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.title h3,
+.title span {
+  
+    margin: 0; /* Remove default margin */
+}
+
+.container .title {
+  flex: 1; /* Take remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -90px;
+  height: 220px ;
+  width: 220px;
+}
+
+/* Desktop layout */
+.table_parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.one {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.table_parent > div {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table_parent > div .title {
+  transform: translateY(0);
+}
+
+.table_parent > div > img {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-out;
+}
+
+.title h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.title p {
+  margin: 5px 0 0 0;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+  .table_parent {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+  }
+  
+  .one {
+      grid-row: span 1;
+      grid-column: span 1;
+  }
+
+  .container {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .six {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+  }
+
+  .six img {
+      width: 100%; /* Adjust image size to fit container */
+      height: auto;
+  }
+
+  .container .title {
+      margin-top: 10px; /* Add space between image and text */
+      height: auto;
+      width: 100%;
+  }
+}
+/* Mobile layout */
+@media (max-width: 768px) {
+  /* Previous styles... */
+
+  .four, .five {
+      grid-row: span 1;
+      grid-column: span 1;
+  }
+
+  .four, .five, .six {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+  }
+
+  .four img, .five img {
+      width: 100%; /* Adjust image size to fit container */
+      height: auto;
+  }
+
+  .four .title, .five .title, .six .title {
+      margin-top: 10px; /* Add space between image and text */
+      height: auto;
+      width: 100%;
+  }
+}
+
